@@ -18,7 +18,7 @@ namespace Tyuiu.PyanzinaMA.Sprint5.Task0.V23
             Console.Title = "Спринт #5 | Выполнила: Пьянзина М.А. | ИИПб-23-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
-            Console.WriteLine("* Тема: Обработка файлов                                                  *");
+            Console.WriteLine("* Тема: Класс File. Запись данных в текстовый файл                        *");
             Console.WriteLine("* Задание #0                                                              *");
             Console.WriteLine("* Вариант 23                                                              *");
             Console.WriteLine("* Выполниа: Пьянзина Мария Алексеевна | ИИПб-23-1                         *");
@@ -39,9 +39,11 @@ namespace Tyuiu.PyanzinaMA.Sprint5.Task0.V23
             Console.WriteLine("***************************************************************************");
 
             string res = ds.SaveToFileTextData(x);
+            Console.WriteLine("Файл создан! ");
 
-            Console.WriteLine("Файл: " + res);
-            Console.WriteLine("Создан");
+            double y = Math.Round(((1 + Math.Pow(x, 3)) / Math.Pow(x, 2)), 3);
+            Console.WriteLine("y = " + y);
+
             Console.ReadKey();
         }
     }
