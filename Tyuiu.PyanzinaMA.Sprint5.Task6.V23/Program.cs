@@ -17,9 +17,9 @@ namespace Tyuiu.PyanzinaMA.Sprint5.Task6.V23
             Console.Title = "Спринт #5 | Выполнила: Пьянзина М.А. | ИИПб-23-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #5                                                               *");
-            Console.WriteLine("* Тема: Чтение набора данных из текстового файла                          *");
-            Console.WriteLine("* Задание #5                                                              *");
-            Console.WriteLine("* Вариант 20                                                              *");
+            Console.WriteLine("* Тема: Обработка текстовых файлов                                        *");
+            Console.WriteLine("* Задание #6                                                              *");
+            Console.WriteLine("* Вариант 23                                                              *");
             Console.WriteLine("* Выполниа: Пьянзина Мария Алексеевна | ИИПб-23-1                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
